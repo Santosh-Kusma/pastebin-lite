@@ -1,0 +1,19 @@
+{
+  "name": "pastebin-lite",
+  "version": "1.0.0",
+  "description": "A simple pastebin like application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santosh Kusma",
+  "license": "ISC",
+  "dependencies": {
+    "@upstash/redis": "^1.36.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
